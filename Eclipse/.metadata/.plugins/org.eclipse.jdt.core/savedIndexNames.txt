@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+E:\@\Cursos\Java\Fontes\Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+1866167541.index
