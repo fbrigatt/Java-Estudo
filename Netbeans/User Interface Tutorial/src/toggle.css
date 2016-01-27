@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 07/01/2016, 03:33:49
+    Author     : Raphael_
+*/
+
+.toggle-button1{
+    -fx-base: lightgreen;
+}
+
+.toggle-button2{
+    -fx-base: lightblue;
+}
+
+.toggle-button3{
+    -fx-base: salmon;
+}
