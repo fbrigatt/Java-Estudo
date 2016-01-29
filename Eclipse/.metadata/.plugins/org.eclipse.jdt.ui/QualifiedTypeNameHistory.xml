@@ -2,12 +2,25 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
 <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="com.modelo.Conta"/>
+<fullyQualifiedTypeName name="com.algaworks.curso.modelo.Cliente"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-<fullyQualifiedTypeName name="com.modelo.Conta"/>
-<fullyQualifiedTypeName name="com.algaworks.curso.modelo.Cliente"/>
-<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.algaworks.curso.jpa2.dao.FabricanteDAO"/>
+<fullyQualifiedTypeName name="com.algaworks.curso.jpa2.service.NegocioException"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.inject.Named"/>
+<fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
+<fullyQualifiedTypeName name="com.algaworks.curso.jpa2.service.CadastroFabricanteService"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
+<fullyQualifiedTypeName name="com.algaworks.curso.jpa2.modelo.Fabricante"/>
+<fullyQualifiedTypeName name="com.algaworks.curso.jpa2.util.jsf.FacesUtil"/>
+<fullyQualifiedTypeName name="com.algaworks.curso.jpa2.util.jpa.Transactional"/>
+<fullyQualifiedTypeName name="javafx.fxml.FXMLLoader"/>
 </qualifiedTypeNameHistroy>

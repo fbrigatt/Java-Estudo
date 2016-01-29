@@ -488,3 +488,289 @@
 2016-01-27 05:05:18,143 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2016-01-27 05:05:18,145 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-01-27 05:05:18,146 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\primeiro-projeto-jsf\src\test\resources
+2016-01-27 20:01:03,434 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-27 20:01:03,476 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-01-27 20:01:03,489 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-27 20:01:03,490 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\primeiro-projeto-jsf\src\test\resources
+2016-01-28 01:14:38,365 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 01:14:38,411 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-01-28 01:14:38,447 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 01:14:38,448 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\primeiro-projeto-jsf\src\test\resources
+2016-01-28 16:16:16,369 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 16:16:16,416 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-01-28 16:16:16,471 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 16:16:16,471 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\primeiro-projeto-jsf\src\test\resources
+2016-01-28 17:12:14,381 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for primeiro-projeto-jsf
+2016-01-28 17:12:18,500 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 17:12:18,501 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-01-28 17:12:18,555 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 17:12:18,555 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\primeiro-projeto-jsf\src\test\resources
+2016-01-28 17:12:18,555 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of primeiro-projeto-jsf
+2016-01-28 17:12:18,583 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for primeiro-projeto-jsf
+2016-01-28 17:12:18,980 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 17:59:14,066 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:locadora-veiculo-web:1.0.0-SNAPSHOT @ E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\pom.xml.
+2016-01-28 17:59:15,163 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.pom
+2016-01-28 17:59:16,398 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.pom
+2016-01-28 17:59:17,255 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/servlet/weld-servlet/1.1.10.Final/weld-servlet-1.1.10.Final.pom
+2016-01-28 17:59:17,523 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/servlet/weld-servlet/1.1.10.Final/weld-servlet-1.1.10.Final.pom
+2016-01-28 17:59:17,879 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/servlet/weld-servlet/1.1.10.Final/weld-servlet-1.1.10.Final.pom
+2016-01-28 17:59:18,764 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/servlet/weld-servlet-parent/1.1.10.Final/weld-servlet-parent-1.1.10.Final.pom
+2016-01-28 17:59:19,041 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/servlet/weld-servlet-parent/1.1.10.Final/weld-servlet-parent-1.1.10.Final.pom
+2016-01-28 17:59:19,353 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/servlet/weld-servlet-parent/1.1.10.Final/weld-servlet-parent-1.1.10.Final.pom
+2016-01-28 17:59:20,146 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-core-parent/1.1.10.Final/weld-core-parent-1.1.10.Final.pom
+2016-01-28 17:59:20,911 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/weld-core-parent/1.1.10.Final/weld-core-parent-1.1.10.Final.pom
+2016-01-28 17:59:21,580 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-parent/19/weld-parent-19.pom
+2016-01-28 17:59:22,360 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/weld-parent/19/weld-parent-19.pom
+2016-01-28 17:59:23,391 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-api-bom/1.1.Final/weld-api-bom-1.1.Final.pom
+2016-01-28 17:59:23,877 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/weld-api-bom/1.1.Final/weld-api-bom-1.1.Final.pom
+2016-01-28 17:59:24,553 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/weld-parent/17/weld-parent-17.pom
+2016-01-28 17:59:25,324 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/weld-parent/17/weld-parent-17.pom
+2016-01-28 17:59:26,010 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/omnifaces/omnifaces/1.4.1/omnifaces-1.4.1.pom
+2016-01-28 17:59:26,247 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/omnifaces/omnifaces/1.4.1/omnifaces-1.4.1.pom
+2016-01-28 17:59:26,495 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/omnifaces/omnifaces/1.4.1/omnifaces-1.4.1.pom
+2016-01-28 17:59:27,100 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-core/4.2.2.Final/hibernate-core-4.2.2.Final.pom
+2016-01-28 17:59:27,576 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/hibernate-core/4.2.2.Final/hibernate-core-4.2.2.Final.pom
+2016-01-28 17:59:28,170 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/antlr/antlr/2.7.7/antlr-2.7.7.pom
+2016-01-28 17:59:28,431 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/antlr/antlr/2.7.7/antlr-2.7.7.pom
+2016-01-28 17:59:28,703 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/antlr/antlr/2.7.7/antlr-2.7.7.pom
+2016-01-28 17:59:29,363 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom
+2016-01-28 17:59:29,595 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom
+2016-01-28 17:59:29,875 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.pom
+2016-01-28 17:59:30,466 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/jboss-parent/7/jboss-parent-7.pom
+2016-01-28 17:59:31,141 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/jboss-parent/7/jboss-parent-7.pom
+2016-01-28 17:59:34,772 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+2016-01-28 17:59:34,999 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+2016-01-28 17:59:35,344 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom
+2016-01-28 17:59:36,030 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom
+2016-01-28 17:59:36,376 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom
+2016-01-28 17:59:36,644 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.pom
+2016-01-28 17:59:37,237 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/jboss-parent/9/jboss-parent-9.pom
+2016-01-28 17:59:37,990 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/jboss-parent/9/jboss-parent-9.pom
+2016-01-28 17:59:38,626 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom
+2016-01-28 17:59:38,874 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom
+2016-01-28 17:59:39,158 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom
+2016-01-28 17:59:39,783 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom
+2016-01-28 17:59:40,575 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.pom
+2016-01-28 17:59:41,196 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.pom
+2016-01-28 17:59:41,416 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.pom
+2016-01-28 17:59:41,676 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/logging/jboss-logging/3.1.0.CR2/jboss-logging-3.1.0.CR2.pom
+2016-01-28 17:59:42,342 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/jboss-parent/6/jboss-parent-6.pom
+2016-01-28 17:59:43,110 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/jboss-parent/6/jboss-parent-6.pom
+2016-01-28 17:59:43,714 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.pom
+2016-01-28 17:59:44,315 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.pom
+2016-01-28 17:59:45,033 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-entitymanager/4.2.2.Final/hibernate-entitymanager-4.2.2.Final.pom
+2016-01-28 17:59:45,680 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/hibernate-entitymanager/4.2.2.Final/hibernate-entitymanager-4.2.2.Final.pom
+2016-01-28 17:59:46,386 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.pom
+2016-01-28 17:59:46,630 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.pom
+2016-01-28 17:59:46,879 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.pom
+2016-01-28 17:59:47,632 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.jar
+2016-01-28 17:59:48,282 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/weld/servlet/weld-servlet/1.1.10.Final/weld-servlet-1.1.10.Final.jar
+2016-01-28 17:59:49,020 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/omnifaces/omnifaces/1.4.1/omnifaces-1.4.1.jar
+2016-01-28 17:59:49,651 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-core/4.2.2.Final/hibernate-core-4.2.2.Final.jar
+2016-01-28 17:59:50,255 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/antlr/antlr/2.7.7/antlr-2.7.7.jar
+2016-01-28 17:59:50,871 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar
+2016-01-28 17:59:51,477 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+2016-01-28 17:59:52,071 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+2016-01-28 17:59:52,744 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+2016-01-28 17:59:53,358 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar
+2016-01-28 17:59:54,073 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar
+2016-01-28 17:59:54,788 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/org/hibernate/hibernate-entitymanager/4.2.2.Final/hibernate-entitymanager-4.2.2.Final.jar
+2016-01-28 17:59:55,411 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.primefaces.org/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar
+2016-01-28 17:59:55,792 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.jar
+2016-01-28 18:00:01,831 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/glassfish/javax.faces/2.1.21/javax.faces-2.1.21.jar
+2016-01-28 18:00:02,083 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/servlet/weld-servlet/1.1.10.Final/weld-servlet-1.1.10.Final.jar
+2016-01-28 18:00:09,314 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/weld/servlet/weld-servlet/1.1.10.Final/weld-servlet-1.1.10.Final.jar
+2016-01-28 18:00:09,651 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/omnifaces/omnifaces/1.4.1/omnifaces-1.4.1.jar
+2016-01-28 18:00:10,393 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/omnifaces/omnifaces/1.4.1/omnifaces-1.4.1.jar
+2016-01-28 18:00:10,676 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/hibernate-core/4.2.2.Final/hibernate-core-4.2.2.Final.jar
+2016-01-28 18:00:19,938 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/hibernate-core/4.2.2.Final/hibernate-core-4.2.2.Final.jar
+2016-01-28 18:00:20,216 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/antlr/antlr/2.7.7/antlr-2.7.7.jar
+2016-01-28 18:00:21,096 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/antlr/antlr/2.7.7/antlr-2.7.7.jar
+2016-01-28 18:00:21,331 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar
+2016-01-28 18:00:21,694 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar
+2016-01-28 18:00:21,916 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+2016-01-28 18:00:22,573 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+2016-01-28 18:00:22,842 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+2016-01-28 18:00:23,149 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+2016-01-28 18:00:23,425 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+2016-01-28 18:00:23,921 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar
+2016-01-28 18:00:24,163 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar
+2016-01-28 18:00:24,507 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar
+2016-01-28 18:00:24,852 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar
+2016-01-28 18:00:25,882 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar
+2016-01-28 18:00:26,122 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/hibernate-entitymanager/4.2.2.Final/hibernate-entitymanager-4.2.2.Final.jar
+2016-01-28 18:00:26,872 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/org/hibernate/hibernate-entitymanager/4.2.2.Final/hibernate-entitymanager-4.2.2.Final.jar
+2016-01-28 18:00:27,141 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repository.jboss.org/nexus/content/groups/public-jboss/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar
+2016-01-28 18:00:28,486 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.jboss.org/nexus/content/groups/public-jboss/mysql/mysql-connector-java/5.1.25/mysql-connector-java-5.1.25.jar
+2016-01-28 18:00:34,270 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /locadora-veiculo-web/src/main/java
+2016-01-28 18:00:34,271 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /locadora-veiculo-web/src/main/resources
+2016-01-28 18:00:34,278 [Worker-30] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /locadora-veiculo-web/src/test/java
+2016-01-28 18:00:43,022 [Worker-30] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 97 sec
+2016-01-28 18:00:51,758 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:00:51,761 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:00:51,785 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:00:51,785 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:10:44,643 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:10:44,689 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:10:44,692 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:10:44,693 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:11:42,589 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:11:42,590 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:11:42,606 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:11:42,606 [ModalContext] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:11:44,014 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:11:44,015 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:11:44,020 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:11:44,020 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:12:46,986 [Worker-40] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for locadora-veiculo-web
+2016-01-28 18:12:47,370 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:12:47,371 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:12:47,385 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:12:47,385 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:12:47,386 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of locadora-veiculo-web
+2016-01-28 18:12:47,386 [Worker-42] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for locadora-veiculo-web
+2016-01-28 18:12:48,080 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:13:50,634 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:13:50,635 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:13:50,637 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:13:50,637 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:14:31,637 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:14:31,638 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:14:31,641 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:14:31,642 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:23:35,921 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:23:35,923 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:23:35,932 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:23:35,933 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:23:47,115 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:23:47,116 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:23:47,119 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:23:47,119 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:32:37,531 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:32:37,548 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:32:37,555 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:32:37,556 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:33:49,834 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:33:49,837 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:33:49,843 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:33:49,844 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:34:50,263 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:34:50,265 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:34:50,269 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:34:50,270 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:35:36,080 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:35:36,082 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:35:36,088 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:35:36,088 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:36:16,658 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:36:16,660 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:36:16,665 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:36:16,665 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:37:33,693 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:37:33,697 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:37:33,705 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:37:33,706 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:40:56,566 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:40:56,568 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:40:56,574 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:40:56,574 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:41:15,046 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:41:15,048 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:41:15,060 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:41:15,061 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:42:14,803 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:42:14,805 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:42:14,810 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:42:14,810 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:43:12,975 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:43:12,978 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:43:12,983 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:43:12,984 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:43:44,835 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:43:44,837 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:43:44,842 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:43:44,843 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:45:02,918 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:45:02,920 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:45:02,924 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:45:02,924 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:46:29,418 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:46:29,420 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:46:29,425 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:46:29,425 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:47:05,765 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:47:05,767 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:47:05,774 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:47:05,774 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:48:06,598 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:48:06,600 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:48:06,607 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:48:06,607 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:50:15,224 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:50:15,227 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:50:15,232 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:50:15,233 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:50:55,174 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:50:55,176 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:50:55,181 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:50:55,181 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:51:16,597 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:51:16,600 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:51:16,604 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:51:16,604 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:52:26,630 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:52:26,636 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:52:26,642 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:52:26,642 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:52:44,125 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:52:44,127 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:52:44,132 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:52:44,133 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:53:45,649 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:53:45,650 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:53:45,653 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:53:45,654 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:54:41,705 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:54:41,705 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:54:41,708 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:54:41,709 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:55:32,989 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:55:32,990 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:55:32,993 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:55:32,994 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:55:46,370 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:55:46,371 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:55:46,375 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:55:46,375 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:59:19,716 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:59:19,717 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 18:59:19,720 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:59:19,720 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 18:59:26,639 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:59:26,641 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 18:59:26,646 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 18:59:26,646 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 19:02:30,267 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:02:30,272 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 19:02:30,278 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:02:30,278 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 19:03:12,200 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:03:12,202 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 19:03:12,207 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:03:12,208 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 19:09:29,624 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:09:29,625 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-28 19:09:29,629 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:09:29,632 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 19:13:47,517 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:13:47,550 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-01-28 19:13:47,575 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:13:47,575 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 19:20:43,693 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:20:43,695 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 19:20:43,702 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:20:43,703 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-01-28 19:23:12,296 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:23:12,298 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-01-28 19:23:12,302 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-01-28 19:23:12,303 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
