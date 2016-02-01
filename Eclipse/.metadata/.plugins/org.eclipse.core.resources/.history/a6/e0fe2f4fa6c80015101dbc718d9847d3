@@ -1,0 +1,35 @@
+package com.estudo.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Teste {
+
+	private static List<Aluno> alunos = new ArrayList<>();
+
+	public static void main(String[] args) {
+
+		novoAluno("Raphael");
+		novoAluno("Silva");
+		novoAluno("Bia");
+		imprimirAlunos();
+
+		System.out.println();
+
+		novoAluno("Fernanda");
+		novoAluno("Roberta");
+		novoAluno("Jessica");
+		imprimirAlunos();
+	}
+
+	public static void novoAluno(String nome) {
+		Aluno aluno = new Aluno(nome);
+		alunos.add(aluno);
+	}
+
+	public static void imprimirAlunos() {
+		for (Aluno a : alunos) {
+			System.out.println(a.getNome());
+		}
+	}
+}

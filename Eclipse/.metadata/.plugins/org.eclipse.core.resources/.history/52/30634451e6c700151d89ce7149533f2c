@@ -1,0 +1,15 @@
+package com.estudo.polimorfismo;
+
+public  Conta {
+
+	protected double saldo;
+
+	public double getSaldo() {
+		return saldo;
+	}
+    
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+}

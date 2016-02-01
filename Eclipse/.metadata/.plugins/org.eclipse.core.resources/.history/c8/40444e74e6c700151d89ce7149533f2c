@@ -1,0 +1,17 @@
+package com.estudo.polimorfismo;
+
+public abstract class Conta {
+
+	protected double saldo;
+
+	public abstract void soma();
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+}

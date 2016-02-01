@@ -1,0 +1,14 @@
+package com.estudo.interfaces;
+
+public class TesteInterface {
+
+	public static void main(String[] args) {
+
+		Imprimivel i = new NotaFiscal();
+		i.imprimir();
+		
+		NotaFiscal n=(NotaFiscal)i;
+		n.adicionarPedido("");
+
+	}
+}

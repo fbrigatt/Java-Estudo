@@ -45,6 +45,7 @@ public class VitrineApp extends Application {
 		txPesquisa.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
 			public void handle(ActionEvent event) {
+
 				if (!txPesquisa.getText().equals("")) {
 					tbVitrine.setItems(findItems());
 				} else {

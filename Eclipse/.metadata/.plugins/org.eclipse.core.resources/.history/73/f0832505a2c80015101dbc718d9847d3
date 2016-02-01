@@ -1,0 +1,8 @@
+package com.estudo.collections;
+
+public class TesteCollections {
+
+	public static void main(String[] args) {
+		
+	}
+}

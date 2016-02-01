@@ -1,0 +1,13 @@
+package com.estudo.sobrecarga;
+
+public class CadastroPessoa {
+
+	public void cadastrar(Pessoa p) {
+		armazenar(p.getNome(),p.getIdade());
+	}
+	
+	private void armazenar(String nome, int idade) {
+		// salva no banco de dados
+		System.out.println("Salvando: \"" + nome + "\" com " + idade + " anos.");
+	}
+}

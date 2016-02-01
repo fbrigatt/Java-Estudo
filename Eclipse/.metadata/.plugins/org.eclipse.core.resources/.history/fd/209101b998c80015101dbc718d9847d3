@@ -1,0 +1,16 @@
+package com.estudo.strings;
+
+public class TesteStrings {
+
+	public static void main(String[] args) {
+		// String, StringBuilder, StringBuffer
+		String s = "Ola";
+		s += " Pessoal ";
+		System.out.println(s);
+		
+		StringBuilder sb=new StringBuilder("Ola ");
+		sb.append(" Pessoal");
+		System.out.println(sb);
+
+	}
+}

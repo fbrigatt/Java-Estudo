@@ -1,0 +1,5 @@
+package com.estudo.enums;
+
+public enum Naipe {
+
+}

@@ -1,0 +1,11 @@
+
+public class Pessoa {
+
+	String nome;
+	int idade;
+
+}
+
+class Humano {
+	Pessoa p = new Pessoa();
+}

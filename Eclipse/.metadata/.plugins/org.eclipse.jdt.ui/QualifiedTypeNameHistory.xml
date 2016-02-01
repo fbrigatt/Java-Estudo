@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-<fullyQualifiedTypeName name="com.modelo.Conta"/>
-<fullyQualifiedTypeName name="com.algaworks.curso.modelo.Cliente"/>
-<fullyQualifiedTypeName name="javax.persistence.Entity"/>
-<fullyQualifiedTypeName name="javax.persistence.Id"/>
-<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
-<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="com.algaworks.curso.jpa2.dao.FabricanteDAO"/>
-<fullyQualifiedTypeName name="com.algaworks.curso.jpa2.service.NegocioException"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="javax.inject.Named"/>
-<fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
 <fullyQualifiedTypeName name="com.algaworks.curso.jpa2.service.CadastroFabricanteService"/>
 <fullyQualifiedTypeName name="javax.inject.Inject"/>
 <fullyQualifiedTypeName name="javax.annotation.PostConstruct"/>
@@ -30,8 +15,6 @@
 <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
 <fullyQualifiedTypeName name="javafx.beans.property.SimpleStringProperty"/>
 <fullyQualifiedTypeName name="javafx.beans.property.SimpleDoubleProperty"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javafx.scene.control.cell.PropertyValueFactory"/>
 <fullyQualifiedTypeName name="VitrineApp.ItensProperty"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
@@ -44,4 +27,37 @@
 <fullyQualifiedTypeName name="javafx.beans.value.ChangeListener"/>
 <fullyQualifiedTypeName name="javafx.application.Application"/>
 <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
+<fullyQualifiedTypeName name="TesteMain"/>
+<fullyQualifiedTypeName name="com.estudo.enums.Carta"/>
+<fullyQualifiedTypeName name="com.estudo.enums.Naipe"/>
+<fullyQualifiedTypeName name="java.awt.image.ImageProducer"/>
+<fullyQualifiedTypeName name="com.estudo.enums.OperacaoAritmetica"/>
+<fullyQualifiedTypeName name="com.estudo.sobrecarga.CadastroPessoa"/>
+<fullyQualifiedTypeName name="com.estudo.sobrecarga.Pessoa"/>
+<fullyQualifiedTypeName name="com.estudo.sobreposicao.ProdutoPerecivel"/>
+<fullyQualifiedTypeName name="com.estudo.polimorfismo.ContaCorrente"/>
+<fullyQualifiedTypeName name="com.estudo.polimorfismo.ContaPoupanca"/>
+<fullyQualifiedTypeName name="com.estudo.abstrata.ProdutoPerecivel"/>
+<fullyQualifiedTypeName name="com.estudo.interfaces.Imprimivel"/>
+<fullyQualifiedTypeName name="com.estudo.interfaces.EnviavelPorEmail"/>
+<fullyQualifiedTypeName name="com.estudo.interfaces.NotaFiscal"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="com.estudo.excecoes.ContaCorrente"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.estudo.excecoes.SaldoInsuficienteException"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="java.text.DateFormat"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.estudo.collections.Aluno"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

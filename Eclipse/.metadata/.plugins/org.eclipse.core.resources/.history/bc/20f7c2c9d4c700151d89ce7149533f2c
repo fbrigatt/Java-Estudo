@@ -1,0 +1,9 @@
+package com.estudo.enums;
+
+public enum OperacaoAritmetica {
+
+	ADICAO,
+	SUBTRACAO;
+	
+	public abstract int operacao(int x, int y);
+}

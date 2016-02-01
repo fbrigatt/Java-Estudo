@@ -1,0 +1,5 @@
+package com.estudo.sobreposicao;
+
+public class ProdutoPerecivel extends Produto {
+
+}

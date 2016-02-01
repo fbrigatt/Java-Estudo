@@ -1,0 +1,9 @@
+package com.estudo.abstrata;
+
+public abstract class Produto {
+
+	String descricao;
+	public abstract void imprimirDescricao();
+	
+	
+}

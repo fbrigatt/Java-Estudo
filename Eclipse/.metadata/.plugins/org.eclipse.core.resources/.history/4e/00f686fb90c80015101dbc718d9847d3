@@ -1,0 +1,10 @@
+package com.estudo.interfaces;
+
+public class NotaFiscal implements Imprimivel{
+
+	@Override
+	public void imprimir() {
+//aqui vai nossa implementacao		
+	}
+
+}
