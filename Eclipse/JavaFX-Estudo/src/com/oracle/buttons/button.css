@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 06/01/2016, 22:48:51
+    Author     : Raphael_
+*/
+
+.btn4{
+    -fx-font: 50 arial;
+    
+}
+
+#botao4{
+    -fx-background-color: yellow;
+}

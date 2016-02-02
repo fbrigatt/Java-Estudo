@@ -774,3 +774,49 @@
 2016-01-28 19:23:12,298 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2016-01-28 19:23:12,302 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-01-28 19:23:12,303 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-02-01 17:53:21,603 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:locadora-veiculo-web:1.0.0-SNAPSHOT @ E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\pom.xml.
+2016-02-01 17:53:31,019 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:primeiro-projeto-jsf:1.0.0-SNAPSHOT @ E:\@\Cursos\Java\Fontes\Eclipse\primeiro-projeto-jsf\pom.xml.
+2016-02-01 17:53:31,053 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:53:31,079 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-02-01 17:53:31,093 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:53:31,094 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-02-01 17:53:44,895 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:53:44,898 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-02-01 17:53:44,900 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:53:44,901 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-02-01 17:53:45,606 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:53:45,607 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-01 17:53:45,609 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:53:45,609 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\primeiro-projeto-jsf\src\test\resources
+2016-02-01 17:54:52,716 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:locadora-veiculo-web:1.0.0-SNAPSHOT @ E:\@\Cursos\Java\Fontes\Eclipse\JSF - locadora-veiculo-web\pom.xml.
+2016-02-01 17:54:53,716 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:54:53,718 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-02-01 17:54:53,778 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:54:53,778 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\JSF - locadora-veiculo-web\src\test\resources
+2016-02-01 17:55:00,113 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:locadora-veiculo-web:1.0.0-SNAPSHOT @ E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\pom.xml.
+2016-02-01 17:55:01,069 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:01,070 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-02-01 17:55:01,082 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:01,083 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-02-01 17:55:03,772 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:03,783 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-02-01 17:55:03,794 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:03,794 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\locadora-veiculo-web\src\test\resources
+2016-02-01 17:55:15,126 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:locadora-veiculo-web:1.0.0-SNAPSHOT @ E:\@\Cursos\Java\Fontes\Eclipse\JSF - locadora-veiculo-web\pom.xml.
+2016-02-01 17:55:16,138 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:16,139 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-02-01 17:55:16,151 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:16,151 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\JSF - locadora-veiculo-web\src\test\resources
+2016-02-01 17:55:18,761 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:18,763 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2016-02-01 17:55:18,776 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:18,777 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\JSF - locadora-veiculo-web\src\test\resources
+2016-02-01 17:55:28,054 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.algaworks:primeiro-projeto-jsf:1.0.0-SNAPSHOT @ E:\@\Cursos\Java\Fontes\Eclipse\JSF - primeiro-projeto-jsf\pom.xml.
+2016-02-01 17:55:28,489 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:28,489 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-01 17:55:28,495 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:28,496 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\JSF - primeiro-projeto-jsf\src\test\resources
+2016-02-01 17:55:30,220 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:30,221 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-01 17:55:30,227 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-02-01 17:55:30,227 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\@\Cursos\Java\Fontes\Eclipse\JSF - primeiro-projeto-jsf\src\test\resources
