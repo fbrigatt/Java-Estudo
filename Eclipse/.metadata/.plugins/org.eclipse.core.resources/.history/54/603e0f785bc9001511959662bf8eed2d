@@ -1,0 +1,6 @@
+package com.jdbc;
+
+public interface Connection {
+
+	Resultbb
+}

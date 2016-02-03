@@ -1,0 +1,43 @@
+1454383039898	Delete element
+1454384192446	Rename type 'TesteConexao'
+1454393904864	Rename type 'JDBCExample'
+1454394567232	Rename type 'JDBCExampleCommitRollback'
+1454394628265	Rename type 'JDBCExample'
+1454394873011	Rename type 'JDBCExample'
+1454395185472	Rename type 'JDBCExample'
+1454395502967	Rename type 'JDBCExample'
+1454395955741	Rename type 'JDBCExample'
+1454396079004	Delete element
+1454396201788	Rename type 'JDBC_ResultSetUpdate'
+1454396294985	Rename package 'com.jdbc'
+1454396303975	Move file
+1454396455741	Rename type 'JDBCExample'
+1454396949574	Rename type 'JDBC_CreateDatabase'
+1454397202059	Rename type 'JDBC_TablesCreate'
+1454397432743	Rename type 'JDBC_CommitRollback'
+1454397438434	Rename type 'JDBC_DatabaseCreate'
+1454397446195	Rename type 'JDBC_DatabaseDrop'
+1454397450957	Rename type 'JDBC_DatabaseSelect'
+1454397464081	Rename type 'JDBC_Exception'
+1454397475258	Rename type 'JDBC_PreparedStatement'
+1454397484419	Rename type 'ExceptionSQL'
+1454397488691	Rename type 'JDBC_ResultSetNavigation'
+1454397494151	Rename type 'JDBC_ResultSetUpdate_ERRO'
+1454397499118	Rename type 'JDBC_ResultSetView'
+1454397513232	Rename type 'JDBC_SavePoint'
+1454397532979	Rename type 'SavePointExample'
+1454397542445	Rename type 'JDBC_Statement'
+1454397549028	Rename type 'JDBC_TableCreate'
+1454397554495	Rename type 'JDBC_TableDrop'
+1454397559835	Rename type 'JDBC_TableInsert'
+1454397574581	Rename type 'TableInsert'
+1454453396770	Rename type 'JDBCExemplo'
+1454456562432	Rename field 'connection'
+1454457054541	Move compilation unit
+1454457070186	Move compilation unit
+1454457114584	Move compilation units
+1454459506396	Move compilation unit
+1454460226979	Rename local variable 'contato'
+1454460348211	Rename type 'TestaInsereDAO'
+1454460721222	Rename local variable 'contatos'
+1454473388979	Extract method 'exibirContatos'

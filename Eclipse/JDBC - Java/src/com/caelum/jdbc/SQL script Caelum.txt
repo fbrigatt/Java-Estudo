@@ -1,0 +1,10 @@
+create database fj21;
+
+create table contato (
+    id bigint not null auto_increment,
+    nome varchar(255),
+    email varchar(255),
+    endereco varchar(255),
+    dataNascimento Date,
+    primary key (id)
+);

@@ -1,0 +1,10 @@
+package com.caelum.jdbc;
+
+import java.sql.Connection;
+
+public class JDBCInsere {
+
+	public static void main(String[] args) {
+		Connection con = new ConnectionFactory().getConnection();
+	}
+}

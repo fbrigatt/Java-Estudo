@@ -1,0 +1,13 @@
+package com.algaworks.estudo.datas;
+
+import java.sql.Date;
+import java.util.Calendar;
+
+public class TesteDatas2 {
+
+	public static void main(String[] args) {
+			System.out.println(new java.sql.Date(Calendar.getInstance().getTimeInMillis()));
+			System.out.println(new java.util.Date());
+			System.out.println(new java.sql.Date(new java.util.Date().getTime()));
+	}
+}

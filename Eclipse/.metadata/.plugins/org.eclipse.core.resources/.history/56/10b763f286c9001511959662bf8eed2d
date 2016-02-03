@@ -1,0 +1,5 @@
+package tutorialspoint_JPA_Eclipselink;
+
+public class Employee {
+
+}

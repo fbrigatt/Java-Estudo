@@ -1,0 +1,28 @@
+package com.tutorialpoint.jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.caelum.jdbc.ConnectionFactory;
+import com.caelum.jdbc.Contato;
+
+public class ContatoDao {
+
+	// a conexao com o banco de dados
+	private Connection con;
+
+	public ContatoDao() {
+		this.con = new ConnectionFactory().getConnection();
+	}
+
+	public void adiciona(Contato contato) {
+		String sql = "insert into contatos " + "(nome, email, endereco, dataNascimento)" + "values(?, ?, ?, ?)";
+
+		try {
+			// prepared statement para insercao
+			PreparedStatement stmt = null;
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

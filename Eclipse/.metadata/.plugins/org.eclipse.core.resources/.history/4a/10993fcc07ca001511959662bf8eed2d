@@ -1,0 +1,25 @@
+package com.tutorialpoint.jdbc.teste;
+
+import java.util.Calendar;
+
+import com.tutorialpoint.jdbc.ContatoDao;
+
+public class TestaInsereDAO {
+
+	public static void main(String[] args) {
+
+		// pronto pra gravar
+		Contato contato = new Contato();
+		contato.setNome("Caelum");
+		contato.setEmail("contato@caelum.com.br");
+		contato.setEndereco("R. Vergueiro 3185 cj57");
+		contato.setDataNascimento(Calendar.getInstance());
+
+		// grave nessa conexao
+		ContatoDao dao = new ContatoDao();
+
+		// metodo elegante
+		dao.adiciona(contato);
+
+	}
+}
