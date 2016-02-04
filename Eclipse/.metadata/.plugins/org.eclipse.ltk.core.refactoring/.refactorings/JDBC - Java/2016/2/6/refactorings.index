@@ -41,3 +41,23 @@
 1454460348211	Rename type 'TestaInsereDAO'
 1454460721222	Rename local variable 'contatos'
 1454473388979	Extract method 'exibirContatos'
+1454533199158	Rename type 'AcessaBanco'
+1454533227094	Rename type 'PesquisaContato'
+1454535032415	Rename type 'ContaCRUD'
+1454537731961	Rename type '_112_Conta'
+1454537841168	Rename type '_112_JDBC_CRUD_Create_Read_Update_Delete_Commit_Rollback'
+1454537868618	Rename method 'criar'
+1454538323573	Rename field 'cliente'
+1454540542467	Move compilation unit
+1454540564950	Rename type 'InserePessoa'
+1454540578034	Move compilation unit
+1454540581976	Delete element
+1454540586988	Move file
+1454540595717	Delete elements
+1454540603776	Rename package 'com.xti.jdbc.NOVO'
+1454540680659	Delete element
+1454540690820	Move compilation unit
+1454540696217	Delete element
+1454541533567	Rename type 'TestaCRUD'
+1454541541552	Rename type 'ContaCRUD'
+1454541549668	Rename local variable 'crud'

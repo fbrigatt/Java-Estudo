@@ -1,0 +1,131 @@
+package com.xti.jdbc.crud.xti;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.xti.jdbc.ConnectionFactory;
+
+public class _112_JDBC_CRUD_Create_Read_Update_Delete_Commit_Rollback {
+
+	public void criar(Connection con, Conta conta) throws SQLException {
+		String sql = "insert into conta values(?, ?, ?)";// nome,
+															// saldo
+
+		try (PreparedStatement ps = con.prepareStatement(sql)) {
+
+			ps.setInt(1, conta.getNumero());
+			ps.setString(2, conta.getCliente());
+			ps.setDouble(3, conta.getSaldo());
+
+			ps.executeUpdate();
+		}
+	}
+
+	public void alterar(Connection con, Conta conta) throws SQLException {
+		String sql = "update conta set cliente=?, saldo=? where numero=?";
+
+		try (PreparedStatement ps = con.prepareStatement(sql)) {
+
+			ps.setString(1, conta.getCliente());
+			ps.setDouble(2, conta.getSaldo());
+			ps.setInt(3, conta.getNumero());
+			ps.executeUpdate();
+		}
+	}
+
+	public void excluir(Connection con, Conta conta) throws SQLException {
+		String sql = "delete from conta where numero=?";
+
+		try (PreparedStatement ps = con.prepareStatement(sql)) {
+
+			ps.setInt(1, conta.getNumero());
+
+			ps.executeUpdate();
+		}
+	}
+
+	public List<Conta> ler(Connection con) throws SQLException {
+		List<Conta> lista = new ArrayList<>();
+
+		String sql = "select numero, cliente, saldo from conta";
+
+		try (PreparedStatement ps = con.prepareStatement(sql); ResultSet rs = ps.executeQuery()) {
+
+			while (rs.next()) {
+				lista.add(new Conta(rs.getInt(1), rs.getString(2), rs.getDouble(3)));
+			}
+		}
+
+		return lista;
+	}
+
+	public void transferir(Connection con, Conta origem, Conta destino, double valor) throws SQLException {
+		if (origem.getSaldo() >= valor) {
+
+			try {
+				con.setAutoCommit(false);
+
+				/* SAQUE */
+				origem.setSaldo(origem.getSaldo() - valor);
+				alterar(con, origem);
+
+				// for�ando erro
+				// int x = 1 / 0;
+
+				/* DEPOSITO */
+				destino.setSaldo(destino.getSaldo() + valor);
+				alterar(con, destino);
+
+				con.commit();// confirmar transa��o
+
+			} catch (Exception e) {
+
+				con.rollback();// desfazer transa��o
+				System.out.println("N�o foi permitido a transferencia");
+
+			}
+		}
+	}
+
+	public static void main(String[] args) throws SQLException {
+
+		// String url = "jdbc:mysql://localhost/xti";
+		// try (Connection con = DriverManager.getConnection(url, "root",
+		// "admin")) {
+		try (Connection con = ConnectionFactory.getConnection()) {
+
+			_112_JDBC_CRUD_Create_Read_Update_Delete_Commit_Rollback crud = new _112_JDBC_CRUD_Create_Read_Update_Delete_Commit_Rollback();
+
+			 Conta c1 = new Conta(1, "Raphael", 200);
+			 Conta c2 = new Conta(2, "Silva", 1200);
+			 Conta c3 = new Conta(3, "Jessica", 300);
+
+			 c1.setSaldo(9000);
+			
+			 crud.alterar(con, c1);
+			
+			 crud.excluir(con, c3);
+
+			// ------------------------------------
+
+			List<Conta> contas = crud.ler(con);
+			for (Conta c : contas) {
+				System.out.println(c);
+			}
+
+			Conta origem = contas.get(0);
+			Conta destino = contas.get(1);
+
+			crud.transferir(con, origem, destino, 500);
+
+			contas = crud.ler(con);
+			for (Conta c : contas) {
+				System.out.println(c);
+			}
+		}
+	}
+}

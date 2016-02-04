@@ -1,0 +1,22 @@
+package com.xti.jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class AcessaBanco {
+
+	public static void main(String[] args) throws SQLException {
+		// String url = "jdbc:mysql://localhost/xti";
+		// Connection con = DriverManager.getConnection(url, "root", "admin");
+		Connection con = ConnectionFactory.getConnection();
+		String sql = "select * from pessoa";
+		PreparedStatement stmt = con.prepareStatement(sql, 0, 0);
+		ResultSet rs = stmt.executeQuery();
+
+		while (rs.next()) {
+			System.out.println(rs.getString("nome"));
+		}
+	}
+}

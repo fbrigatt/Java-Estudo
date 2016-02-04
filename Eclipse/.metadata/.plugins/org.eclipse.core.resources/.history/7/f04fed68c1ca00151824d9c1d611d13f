@@ -1,0 +1,12 @@
+package com.xti.jdbc.crud;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.xti.jdbc.ConnectionFactory;
+
+public class TestaCRUD {
+
+	
+}

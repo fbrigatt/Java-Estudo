@@ -1,0 +1,96 @@
+package com.xti.jdbc.crud;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.xti.jdbc.ConnectionFactory;
+
+public class ContaDao {
+
+	public void criar(Connection con, Conta conta) {
+		String sql = "insert into conta (cliente, saldo) values(?, ?)";
+
+		try (PreparedStatement stmt = con.prepareStatement(sql);) {
+			stmt.setString(1, conta.getCliente());
+			stmt.setDouble(2, conta.getSaldo());
+
+			System.out.println("Salvo no banco de dados");
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			System.out.println("Erro add");
+		}
+	}
+
+	public void alterar(Connection con, Conta conta) {
+		String sql = "update conta set cliente=?, saldo=? where numero=? ";
+		try (PreparedStatement stmt = con.prepareStatement(sql)) {
+			stmt.setString(1, conta.getCliente());
+			stmt.setDouble(2, conta.getSaldo());
+			stmt.setInt(3, conta.getNumero());
+			stmt.executeUpdate();
+			System.out.println("Alterado com sucesso");
+		} catch (SQLException e) {
+			System.out.println("Erro ALTERAR");
+		}
+	}
+
+	public void excluir(Connection con, Conta conta) {
+		String sql = "delete conta where numero=? ";
+
+		try (PreparedStatement stmt = con.prepareStatement(sql);) {
+			stmt.setDouble(1, conta.getNumero());
+
+			System.out.println("Removido com sucesso no banco de dados");
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			System.out.println("Erro excluir");
+		}
+	}
+
+	public List<Conta> ler(Connection con) throws SQLException {
+
+		List<Conta> lista = new ArrayList<>();
+		String sql = "select * from conta";
+
+		try (PreparedStatement stmt = con.prepareStatement(sql);) {
+			ResultSet rs = stmt.executeQuery();
+			while (rs.next()) {
+				lista.add(new Conta(rs.getInt(1), rs.getString(2), rs.getDouble(3)));
+			}
+		}
+		return lista;
+	}
+
+	// --------------------------------
+	public static void main(String[] args) throws SQLException {
+		try (Connection con = ConnectionFactory.getConnection()) {
+			ContaDao dao = new ContaDao();
+
+			// testando salvar
+			// Conta c1 = new Conta("Raphael", 5000);
+			Conta c2 = new Conta("Silva", 3000);
+			// Conta c3 = new Conta("Oliveira", 2000);
+			//
+			// dao.criar(con, c1);
+			// dao.criar(con, c2);
+			// dao.criar(con, c3);
+
+			// testando alterar
+			Conta c1 = new Conta("Raphael", 5000);
+			c1.setCliente("RS");
+			dao.alterar(con, c1);
+			dao.excluir(con, c2);
+
+			System.out.println();
+			List<Conta> contas = dao.ler(con);
+			for (Conta c : contas) {
+				System.out.println(c.getNumero() + ": " + c.getCliente() + ": " + c.getSaldo());
+			}
+		}
+	}
+
+}

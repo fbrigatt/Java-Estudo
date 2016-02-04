@@ -1,0 +1,23 @@
+package com.programmingknowledge.fxml;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+public class ClasseFXML extends Application{
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		VBox root = new VBox();
+		root.getChildren().addAll(btn, exit);
+
+		Scene scene = new Scene(root, 100, 100);
+
+		stage.setTitle("Lambda Expressions");
+		stage.setScene(scene);
+		stage.show();
+		
+	}
+
+}

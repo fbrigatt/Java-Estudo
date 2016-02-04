@@ -1,0 +1,9 @@
+create database xti;
+
+create table pessoa (
+    codigo bigint not null,
+    nome varchar(15),
+    sexo char(1),
+    email varchar(30),
+    primary key (codigo)
+);

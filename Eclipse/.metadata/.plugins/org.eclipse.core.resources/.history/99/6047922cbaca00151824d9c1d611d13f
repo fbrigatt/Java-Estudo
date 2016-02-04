@@ -1,0 +1,25 @@
+package com.xti.jdbc;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class InserePessoa {
+	public static void main(String[] args) throws SQLException {
+
+		String sql = "insert into pessoa (nome, sexo, email) values (?, ?, ?)";
+		String[] pessoas = { "Sandra", "Beatriz", "Juliana", "Fatima" };
+
+		try (Connection con = ConnectionFactory.getConnection()) {
+			PreparedStatement stmt = con.prepareStatement(sql);
+			for (int i = 0; i < pessoas.length; i++) {
+				stmt.setString(1, pessoas[i]);
+				stmt.setString(2, "F");
+				stmt.setString(3, pessoas[i].toLowerCase() + "@xti.com.br");
+			}
+			stmt.executeQuery();
+		} catch (Exception e) {
+			System.out.println("Erro no bd");
+		}
+	}
+}

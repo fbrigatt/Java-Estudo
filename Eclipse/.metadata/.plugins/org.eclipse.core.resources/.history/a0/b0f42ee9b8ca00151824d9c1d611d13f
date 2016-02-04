@@ -1,0 +1,5 @@
+package com.xti.jdbc;
+
+public class ConnectionFactory {
+
+}

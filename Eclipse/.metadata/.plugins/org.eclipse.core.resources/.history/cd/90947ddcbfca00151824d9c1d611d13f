@@ -1,0 +1,55 @@
+package com.xti.jdbc.crud;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ContaDao {
+
+	public void criar(Connection con, Conta conta) {
+		String sql = "insert into conta (cliente, saldo) values(?, ?)";
+
+		try (PreparedStatement stmt = con.prepareStatement(sql);) {
+			stmt.setString(1, conta.getCliente());
+			stmt.setDouble(2, conta.getSaldo());
+
+			System.out.println("Salvo no banco de dados");
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			System.out.println("Erro add");
+		}
+	}
+
+	public void alterar(Connection con, Conta conta) {
+		String sql = "update conta set cliente=?, saldo=? where numero=?";
+
+		try (PreparedStatement stmt = con.prepareStatement(sql);) {
+			stmt.setString(1, conta.getCliente());
+			stmt.setDouble(2, conta.getSaldo());
+			stmt.setDouble(3, conta.getNumero());
+
+			System.out.println("Alterado com sucesso no banco de dados");
+			stmt.executeUpdate();
+		} catch (SQLException e) {
+			System.out.println("Erro add");
+		}
+	}
+
+	public List<Conta> ler(Connection con) throws SQLException {
+
+		List<Conta> lista = new ArrayList<>();
+		String sql = "select * from conta";
+
+		try (PreparedStatement stmt = con.prepareStatement(sql);) {
+			ResultSet rs = stmt.executeQuery();
+			while (rs.next()) {
+				lista.add(new Conta(rs.getInt(1), rs.getString(2), rs.getDouble(3)));
+			}
+		}
+		return lista;
+	}
+
+}
