@@ -1,0 +1,9 @@
+import javax.persistence.EntityManager;
+
+public class PersistindoVeiculo {
+
+	public static void main(String[] args) {
+		
+		EntityManager manager=JpaUtil.getEntityManager();
+	}
+}

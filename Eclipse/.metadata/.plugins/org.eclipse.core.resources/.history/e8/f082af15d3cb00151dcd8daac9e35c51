@@ -1,0 +1,15 @@
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+import javax.swing.text.StyledEditorKit.ForegroundAction;
+
+public class ListandoVeiculos {
+
+	EntityManager manager = JpaUtil.getEntityManager();
+
+	Query query = manager.createQuery("from Veiculo");
+	List<Veiculo> veiculos = query.getResultList();
+
+	
+}

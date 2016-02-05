@@ -1,0 +1,13 @@
+package com.algaworks.estudo.equals_hashcode;
+
+public class Produto {
+
+	private String sku;
+	private String nome;
+
+	public Produto(String sku, String nome) {
+		this.sku = sku;
+		this.nome = nome;
+	}
+
+}

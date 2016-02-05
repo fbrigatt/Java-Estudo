@@ -1,0 +1,12 @@
+package com.algaworks.estudo.equals_hashcode;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class CadastradorProdutos {
+
+	public static void main(String[] args) {
+		Collection<Produto>produtos=new ArrayList<>();
+		
+	}
+}

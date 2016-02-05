@@ -1,0 +1,10 @@
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+
+public class ListandoVeiculos {
+
+	EntityManager manager = JpaUtil.getEntityManager();
+
+	Query query = manager.createQuery("from Veiculo");
+	List<Veiculo> veiculos = query.getResultList();
+}

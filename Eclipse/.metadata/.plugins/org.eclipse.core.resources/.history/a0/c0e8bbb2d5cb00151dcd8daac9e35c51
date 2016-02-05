@@ -1,0 +1,5 @@
+package com.algaworks.estudo.equals_hashcode;
+
+public class CadastradorProdutos {
+
+}
