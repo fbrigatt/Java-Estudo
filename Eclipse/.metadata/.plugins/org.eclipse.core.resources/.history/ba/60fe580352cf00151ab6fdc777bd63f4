@@ -1,0 +1,13 @@
+package com.programmingknowledge.menu;
+
+import javafx.application.Platform;
+import javafx.event.ActionEvent;
+
+public class MainController {
+
+	public void closeApp(ActionEvent e) {
+		Platform.exit();
+		System.exit(0);
+	}
+
+}

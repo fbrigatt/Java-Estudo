@@ -1,0 +1,21 @@
+package com.programmingknowledge.radiobutton;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.ToggleGroup;
+
+public class MainController {
+
+	@FXML
+	private RadioButton rb1;
+
+	@FXML
+	private ToggleGroup myGroup;
+
+	@FXML
+	private RadioButton rb2;
+
+	@FXML
+	private Label lbl;
+}

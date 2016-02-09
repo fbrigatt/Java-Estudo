@@ -1,8 +1,0 @@
-package com.estudo.interfaces;
-
-public class TesteInterface {
-
-	public static void main(String[] args) {
-		Imprimivel i = new NotaFiscal();
-	}
-}

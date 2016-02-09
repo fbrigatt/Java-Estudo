@@ -1,0 +1,29 @@
+package com.programmingknowledge.checkbox;
+
+import javafx.fxml.FXML;
+
+public class MainController {
+
+	
+
+	    @FXML
+	    private CheckBox cb1;
+
+	    @FXML
+	    private CheckBox cb2;
+
+	    @FXML
+	    private CheckBox cb3;
+
+	    @FXML
+	    private CheckBox cb4;
+
+	    @FXML
+	    private Label lbCount;
+
+	    @FXML
+	    private Label lbList;
+
+	}
+
+}

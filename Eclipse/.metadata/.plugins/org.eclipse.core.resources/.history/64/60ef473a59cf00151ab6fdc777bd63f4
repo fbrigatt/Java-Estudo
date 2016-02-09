@@ -1,0 +1,37 @@
+package com.programmingknowledge.tableview;
+
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+
+public class Student {
+
+	private final SimpleIntegerProperty id;
+	private final SimpleStringProperty name;
+	private final SimpleStringProperty surname;
+	private final SimpleIntegerProperty age;
+
+	public Student(Integer id, String name, String surname, Integer age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.surname = surname;
+		this.age = age;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getSurname() {
+		return surname;
+	}
+
+	public Integer getAge() {
+		return age;
+	}
+
+}

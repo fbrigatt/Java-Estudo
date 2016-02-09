@@ -1,0 +1,7 @@
+package com.programmingknowledge.radiobutton;
+
+import javafx.fxml.FXML;
+
+public class MainController {
+
+}

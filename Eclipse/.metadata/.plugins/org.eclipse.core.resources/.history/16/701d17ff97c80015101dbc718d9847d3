@@ -1,8 +1,0 @@
-package com.estudo.strings;
-
-public class TesteStrings {
-
-	public static void main(String[] args) {
-		//String, StringBuilder, StringBuffer
-	}
-}

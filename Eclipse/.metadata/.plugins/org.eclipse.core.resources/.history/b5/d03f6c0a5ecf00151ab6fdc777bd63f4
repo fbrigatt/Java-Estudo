@@ -1,0 +1,27 @@
+package com.programmingknowledge.datepicker;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.DatePicker;
+import javafx.scene.control.Label;
+
+public class MainController {
+
+	@FXML
+	private DatePicker dp;
+
+	@FXML
+	private Label showDate;
+
+	public void mostrarData(ActionEvent e) {
+		LocalDate date = dp.getValue();
+		DateTimeFormatter formatador = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+		String text = date.format(formatador);
+
+		// showDate.setText(date.toString());
+		showDate.setText(text);
+	}
+}

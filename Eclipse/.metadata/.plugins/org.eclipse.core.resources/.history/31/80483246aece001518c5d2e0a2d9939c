@@ -1,0 +1,18 @@
+package com.programmingknowledge.filechooser;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
+
+public class MainController {
+
+	@FXML
+	private Button btn1;
+
+	@FXML
+	private Button btn2;
+
+	@FXML
+	private ListView listView;
+
+}

@@ -1,0 +1,20 @@
+package com.programmingknowledge.tableview;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.TableView;
+
+public class MainController implements Initializable {
+
+	@FXML
+	private TableView<Student> table;
+
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+
+	}
+
+}

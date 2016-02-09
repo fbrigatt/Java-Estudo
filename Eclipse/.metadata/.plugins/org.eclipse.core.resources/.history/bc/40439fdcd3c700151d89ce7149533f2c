@@ -1,9 +1,0 @@
-package com.estudo.enums;
-
-public enum Naipe {
-
-	OURO,
-	PAUS,
-	ESPADA,
-	COPAS;
-}

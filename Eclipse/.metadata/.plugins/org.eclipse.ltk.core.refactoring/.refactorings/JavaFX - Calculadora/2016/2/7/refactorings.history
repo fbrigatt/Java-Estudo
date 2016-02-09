@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;MainWindowView.fxml&apos; to &apos;JavaFX - Calculadora/src/application&apos;&#x0D;&#x0A;- Original project: &apos;JavaFX - Calculadora&apos;&#x0D;&#x0A;- Destination element: &apos;JavaFX - Calculadora/src/application&apos;&#x0D;&#x0A;- Original element: &apos;MainWindowView.fxml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src&lt;application" element1="src/MainWindowView.fxml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1454876542088" units="0" version="1.0"/>
+</session>

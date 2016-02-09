@@ -1,6 +1,0 @@
-package com.estudo.interfaces;
-
-public abstract interface Imprimivel {
-
-	public void imprimir();
-}

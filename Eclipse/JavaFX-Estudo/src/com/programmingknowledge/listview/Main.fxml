@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.programmingknowledge.listview.MainController">
+	<children>
+		<ComboBox fx:id="combobox" layoutY="42.0" onAction="#comboChanged" prefHeight="53.0" prefWidth="159.0" promptText="Select Name" />
+		<Label fx:id="myLabel" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="159.0" text="Label" />
+		<Button layoutX="234.0" layoutY="56.0" mnemonicParsing="false" onAction="#buttonAction" text="Button" />
+      <ListView fx:id="listView" layoutX="14.0" layoutY="100.0" prefHeight="185.0" prefWidth="275.0" />
+	</children>
+</AnchorPane>

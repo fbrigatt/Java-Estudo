@@ -1,0 +1,50 @@
+package com.programmingknowledge.binding;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+import javafx.scene.control.ProgressBar;
+import javafx.scene.control.ProgressIndicator;
+
+public class MainController implements Initializable {
+
+	final MyNumber myNumber = new MyNumber();
+
+	@FXML
+	private Label lblStatus;
+	@FXML
+	private ProgressBar pb;
+	@FXML
+	private ProgressIndicator pi;
+
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		myNumber.setNumber(0);
+		myNumber.numberProperty().addListener(new ChangeListener<Object>() {
+
+			@Override
+			public void changed(ObservableValue<? extends Object> observable, Object oldValue, Object newValue) {
+				lblStatus.setText(new Double(myNumber.getNumber()).toString());
+			}
+		});
+		
+		pb.progressProperty().bind(myNumber.numberProperty());
+		pi.progressProperty().bind(myNumber.numberProperty());
+
+	}
+
+	public void btnClick(ActionEvent e) {
+		myNumber.setNumber(myNumber.getNumber() + 0.1);
+	}
+
+	public void btn2Click(ActionEvent e) {
+		myNumber.setNumber(myNumber.getNumber() -0.1);
+	}
+
+}

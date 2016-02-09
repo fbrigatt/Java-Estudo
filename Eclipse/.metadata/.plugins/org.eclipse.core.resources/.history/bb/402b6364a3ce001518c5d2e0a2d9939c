@@ -1,0 +1,44 @@
+package com.programmingknowledge.treeview;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.TreeItem;
+import javafx.scene.control.TreeView;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+
+public class MainController implements Initializable {
+
+	@FXML
+	TreeView<String> treeView;
+
+	Image iconOk = new Image(getClass().getResourceAsStream("img/ok.png"));
+	Image iconNot = new Image(getClass().getResourceAsStream("img/not.png"));
+
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+
+		// root
+		TreeItem<String> root = new TreeItem<>("Root", new ImageView(iconOk));
+
+		// node
+		TreeItem<String> nodeA = new TreeItem<>("Node A", new ImageView(iconNot));
+		TreeItem<String> nodeB = new TreeItem<>("Node B");
+		TreeItem<String> nodeC = new TreeItem<>("Node C");
+
+		root.getChildren().addAll(nodeA, nodeB, nodeC);
+
+		// subnode
+		TreeItem<String> nodeA1 = new TreeItem<>("Node A1", new ImageView(iconOk));
+		TreeItem<String> nodeB1 = new TreeItem<>("Node B1");
+		TreeItem<String> nodeC1 = new TreeItem<>("Node C1");
+		nodeA.getChildren().addAll(nodeA1, nodeB1, nodeC1);
+
+		treeView.setRoot(root);
+		treeView.autosize();
+	}
+
+}
