@@ -1,0 +1,13 @@
+package com.javafxtutorials.switchscreens;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+
+public class Main1Controller {
+
+	@FXML
+	private Button btn1;
+	@FXML
+	private Button btn2;
+
+}

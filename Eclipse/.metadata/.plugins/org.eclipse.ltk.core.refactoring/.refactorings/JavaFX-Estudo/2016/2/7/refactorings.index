@@ -26,3 +26,12 @@
 1455040376968	Delete elements
 1455043771627	Rename local variable 'ld'
 1455046247708	Delete element
+1455150242406	Rename type 'TwoScene'
+1455150488748	Rename resource 'Main.fxml'
+1455150503890	Rename type 'Main_TwoScene'
+1455150529578	Copy file
+1455150879811	Delete element
+1455151446732	Delete elements
+1455151462573	Rename type 'MainFXML'
+1455154455398	Rename type 'MascaraUtil'
+1455154486242	Rename method 'somenteNumeros'

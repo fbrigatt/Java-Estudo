@@ -1,9 +1,0 @@
-package com.xti.jdbc;
-
-
-
-public class AcessaBanco {
-
-	String url = "jdbc:mysql://localhost/xti";
-	Connection con = DriverManager.getConnection(url, "root", "admin");
-}

@@ -1,0 +1,7 @@
+package com.javafxtutorials.switchscreens;
+
+import javafx.fxml.FXML;
+
+public class Main2Controller {
+
+}

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/DesignPatterns - Java/src/com/tutorialpoint/designpatterns/abstractfactory/AbstractFactoryPatternDemo.java"/>
+<listEntry value="/Java - DesignPatterns/src/com/tutorialpoint/designpatterns/abstractfactory/AbstractFactoryPatternDemo.java"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.tutorialpoint.designpatterns.abstractfactory.AbstractFactoryPatternDemo"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DesignPatterns - Java"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Java - DesignPatterns"/>
 </launchConfiguration>

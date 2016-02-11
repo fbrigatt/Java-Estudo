@@ -1,0 +1,26 @@
+package com.javafxtutorials.checkbox;
+
+import javafx.application.Application;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+public class FX_CheckBox extends Application {
+
+	// controls needed for app
+	CheckBox cb1, cb2, cb3;
+	Label lblTotal, lblList;
+
+	// 2 VBox for the labels and checkboxes
+	VBox vbCheck, vbLabel;
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+
+	}
+}

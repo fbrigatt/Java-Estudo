@@ -1,0 +1,5 @@
+package com.tutorialpoint.designpatterns.filter;
+
+public interface Criteria {
+	public List<Person> meetCriteria(List<Person> persons);
+}

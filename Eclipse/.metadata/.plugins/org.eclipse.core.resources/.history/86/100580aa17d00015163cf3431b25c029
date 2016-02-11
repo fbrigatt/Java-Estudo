@@ -1,0 +1,6 @@
+package com.tutorialpoint.designpatterns.singleton;
+
+public class SingleObject {
+//create an object of singleton
+	private static SingleObject instance=new SingleObject();
+}

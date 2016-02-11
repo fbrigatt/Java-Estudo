@@ -1,0 +1,99 @@
+package com.javafxtutorials.hellomath;
+
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
+
+public class FX_HelloMath extends Application {
+
+	TextField txtnum1, txtnum2;
+	Button btnadd, btnsub, btndiv, btnmul, btnclear;
+	Label lblanswer;
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+	@Override
+	public void start(Stage stage) throws Exception {
+
+		// make the controls
+		txtnum1 = new TextField();
+		txtnum2 = new TextField();
+		btnadd = new Button("+");
+		btnsub = new Button("-");
+		btnmul = new Button("*");
+		btndiv = new Button("/");
+		btnclear = new Button("AC");
+		lblanswer = new Label("?");
+
+		// center text in Label
+		lblanswer.setAlignment(Pos.CENTER);
+
+		// apply ccs-like style to label(yes, you can)
+		lblanswer.setStyle("-fx-border-color: #000; -fx-padding: 0px;");
+
+		// ----------------------------------------
+		// make container for app
+		GridPane root = new GridPane();
+
+		// put container in middle of scene
+		root.setAlignment(Pos.CENTER);
+
+		// set spacing between controls in grid
+		root.setHgap(10);
+		root.setVgap(10);
+
+		// add to grid, cell by cell
+		root.add(btnadd, 0, 0);
+		root.add(btnsub, 1, 0);
+		root.add(btnmul, 0, 1);
+		root.add(btndiv, 1, 1);
+		root.add(txtnum1, 0, 2);
+		root.add(txtnum2, 1, 2);
+
+		// last 2 row span across 2 columns
+		// col, rol, colspan, rowspan
+		root.add(lblanswer, 0, 3, 2, 1);
+		root.add(btnclear, 0, 4, 2, 1);
+
+		// ----------------------------------------
+		// set widths of all controls in separate method
+		setWidths();
+
+		// attach buttons to code in separate method
+		attachCode();
+
+		// usual stuff
+		Scene scene = new Scene(root, 300, 250);
+		stage.setTitle("Hello Math - FX Version");
+		stage.setScene(scene);
+		stage.show();
+
+		// ----------------------------------------
+	}
+
+	private void attachCode() {
+		// TODO Auto-generated method stub
+
+	}
+
+	private void setWidths() {
+		// set widths of all controls
+		txtnum1.setPrefWidth(70);
+		txtnum2.setPrefWidth(70);
+		btnadd.setPrefWidth(70);
+		btnsub.setPrefWidth(70);
+		btnmul.setPrefWidth(70);
+		btndiv.setPrefWidth(70);
+		btnclear.setPrefWidth(150);
+		lblanswer.setPrefWidth(150);
+
+	}
+
+}

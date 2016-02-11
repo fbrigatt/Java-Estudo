@@ -1,0 +1,7 @@
+package com.javafxtutorials.checkbox;
+
+import javafx.fxml.FXML;
+
+public class MainController {
+
+}

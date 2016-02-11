@@ -1,0 +1,5 @@
+package com.tutorialpoint.designpatterns.singleton;
+
+public class SingletonPatternDemo {
+
+}

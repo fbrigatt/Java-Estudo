@@ -1,0 +1,41 @@
+package com.javafxtutorials.checkbox;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
+
+public class MainController {
+
+	@FXML
+	CheckBox chksport1;
+	@FXML
+	CheckBox chksport2;
+	@FXML
+	CheckBox chksport3;
+	@FXML
+	Label lbltotal;
+	@FXML
+	Label lbllist;
+
+	@FXML
+	private void handleButtonClick(ActionEvent e) {
+		int count = 0;
+		String choices = "";
+
+		if (cb1.isSelected()) {
+			count++;
+			choices += cb1.getText() + "\n";
+		}
+		if (cb2.isSelected()) {
+			count++;
+			choices += cb2.getText() + "\n";
+		}
+		if (cb3.isSelected()) {
+			count++;
+			choices += cb3.getText() + "\n";
+		}
+		lblTotal.setText("Sports chosen: " + count);
+		lblList.setText(choices);
+	}
+}

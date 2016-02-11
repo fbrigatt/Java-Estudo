@@ -1,0 +1,22 @@
+package com.javafxtutorials.switchscreens;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+
+public class Main1Controller implements Initializable{
+
+	@FXML
+	private Button btn1;
+	@FXML
+	private Button btn2;
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
