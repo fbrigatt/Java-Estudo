@@ -1,0 +1,17 @@
+package com.oracle.properties_binding;
+
+import javafx.beans.binding.NumberBinding;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+
+public class Main2_Binding {
+
+	public static void main(String[] args) {
+		IntegerProperty num1 = new SimpleIntegerProperty();
+		IntegerProperty num2 = new SimpleIntegerProperty();
+		NumberBinding sum = num1.add(num2);
+		System.out.println(sum.getValue());
+		num1.set(2);
+		System.out.println(sum.getValue());
+	}
+}

@@ -1,0 +1,8 @@
+package com.oracle.properties_binding;
+
+public class Main2_Binding {
+
+	public static void main(String[] args) {
+
+	}
+}

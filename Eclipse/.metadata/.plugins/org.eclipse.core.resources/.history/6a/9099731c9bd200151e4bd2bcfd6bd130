@@ -1,0 +1,5 @@
+package com.oracle.properties_binding.lowlevel;
+
+public class MainLowLevel {
+
+}

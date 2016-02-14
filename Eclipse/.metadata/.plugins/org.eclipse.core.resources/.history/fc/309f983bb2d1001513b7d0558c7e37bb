@@ -1,0 +1,13 @@
+package com.tcc.model;
+
+public class Produto extends Alimento {
+	String nomeComercial;
+	String marca;
+
+	public Produto(String nome, String marca, String tipo, String peso, String nomeComercial, String marca2) {
+		super(nome, marca, tipo, peso);
+		this.nomeComercial = nomeComercial;
+		marca = marca2;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.tcc.model;
+
+public enum Tipo {
+	BEBIDA("Cerveja");
+}

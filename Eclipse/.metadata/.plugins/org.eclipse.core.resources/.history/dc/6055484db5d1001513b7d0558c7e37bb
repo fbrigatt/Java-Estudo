@@ -1,0 +1,9 @@
+package model;
+
+public class TesteMain {
+
+	public static void main(String[] args) {
+		Alimento a1 = new Alimento("refrigerante", Tipo.BEBIDAS);
+		Alimento a2 = new Alimento("picanha", Tipo.CARNE);
+	}
+}

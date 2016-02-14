@@ -1,0 +1,179 @@
+package com.oracle.dialog;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import javafx.application.Application;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.ButtonBar.ButtonData;
+import javafx.scene.control.ButtonType;
+import javafx.scene.control.ChoiceDialog;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextInputDialog;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Priority;
+import javafx.stage.Stage;
+
+public class D extends Application {
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+	@Override
+	public void start(Stage stage) throws Exception {
+
+		// Information Dialog
+		Alert alertInformation = new Alert(AlertType.INFORMATION);
+		alertInformation.setTitle("Information Dialog");
+		alertInformation.setHeaderText("Look, an Information Dialog");
+		alertInformation.setContentText("I have a great message for you!");
+		// alertInformation.showAndWait();
+
+		// #####################################################
+		// Without Header Tex
+		Alert alertWithoutHeader = new Alert(AlertType.INFORMATION);
+		alertWithoutHeader.setTitle("Information Dialog");
+		alertWithoutHeader.setHeaderText(null);
+		alertWithoutHeader.setContentText("I have a great message for you!");
+		// alertWithoutHeader.showAndWait();
+
+		// #####################################################
+		// Warning Dialog
+		Alert alertWarning = new Alert(AlertType.WARNING);
+		alertWarning.setTitle("Warning Dialog");
+		alertWarning.setHeaderText("Look, a Warning Dialog");
+		alertWarning.setContentText("Careful with the next step!");
+		// alertWarning.showAndWait();
+
+		// #####################################################
+		// Error Dialog
+		Alert alertError = new Alert(AlertType.ERROR);
+		alertError.setTitle("Error Dialog");
+		alertError.setHeaderText("Look, an Error Dialog");
+		alertError.setContentText("Ooops, there was an error!");
+		// alertError.showAndWait();
+
+		// #####################################################
+		// Exception Dialog
+		Alert alertException = new Alert(AlertType.ERROR);
+		alertException.setTitle("Exception Dialog");
+		alertException.setHeaderText("Look, an Exception Dialog");
+		alertException.setContentText("Could not find file blabla.txt!");
+
+		Exception ex = new FileNotFoundException("Could not find file blabla.txt");
+
+		// Create expandable Exception.
+		StringWriter sw = new StringWriter();
+		PrintWriter pw = new PrintWriter(sw);
+		ex.printStackTrace(pw);
+		String exceptionText = sw.toString();
+
+		Label label = new Label("The exception stacktrace was:");
+
+		TextArea textArea = new TextArea(exceptionText);
+		textArea.setEditable(false);
+		textArea.setWrapText(true);
+
+		textArea.setMaxWidth(Double.MAX_VALUE);
+		textArea.setMaxHeight(Double.MAX_VALUE);
+		GridPane.setVgrow(textArea, Priority.ALWAYS);
+		GridPane.setHgrow(textArea, Priority.ALWAYS);
+
+		GridPane expContent = new GridPane();
+		expContent.setMaxWidth(Double.MAX_VALUE);
+		expContent.add(label, 0, 0);
+		expContent.add(textArea, 0, 1);
+
+		// Set expandable Exception into the dialog pane.
+		alertException.getDialogPane().setExpandableContent(expContent);
+
+		// alertException.showAndWait();
+
+		// #####################################################
+		// Confirmation Dialog
+		Alert alertConfirm = new Alert(AlertType.CONFIRMATION);
+		alertConfirm.setTitle("Confirmation Dialog");
+		alertConfirm.setHeaderText("Look, a Confirmation Dialog");
+		alertConfirm.setContentText("Are you ok with this?");
+
+		// Optional<ButtonType> result = alertConfirm.showAndWait();
+		// if (result.get() == ButtonType.OK) {
+		// // ... user chose OK
+		// } else {
+		// // ... user chose CANCEL or closed the dialog
+		// }
+
+		//
+		Alert alertConfirm2 = new Alert(AlertType.CONFIRMATION);
+		alertConfirm2.setTitle("Confirmation Dialog with Custom Actions");
+		alertConfirm2.setHeaderText("Look, a Confirmation Dialog with Custom Actions");
+		alertConfirm2.setContentText("Choose your option.");
+
+		ButtonType buttonTypeOne = new ButtonType("One");
+		ButtonType buttonTypeTwo = new ButtonType("Two");
+		ButtonType buttonTypeThree = new ButtonType("Three");
+		ButtonType buttonTypeCancel = new ButtonType("Cancel", ButtonData.CANCEL_CLOSE);
+
+		alertConfirm2.getButtonTypes().setAll(buttonTypeOne, buttonTypeTwo, buttonTypeThree, buttonTypeCancel);
+
+		// Optional<ButtonType> result = alertConfirm2.showAndWait();
+		// if (result.get() == buttonTypeOne) {
+		// // ... user chose "One"
+		// } else if (result.get() == buttonTypeTwo) {
+		// // ... user chose "Two"
+		// } else if (result.get() == buttonTypeThree) {
+		// // ... user chose "Three"
+		// } else {
+		// // ... user chose CANCEL or closed the dialog
+		// }
+
+		// #####################################################
+		// Text Input Dialog
+		TextInputDialog dialog = new TextInputDialog("walter");
+		dialog.setTitle("Text Input Dialog");
+		dialog.setHeaderText("Look, a Text Input Dialog");
+		dialog.setContentText("Please enter your name:");
+
+		// Traditional way to get the response value.
+		// Optional<String> result = dialog.showAndWait();
+		// if (result.isPresent()) {
+		// System.out.println("Your name: " + result.get());
+		// }
+		//
+		//// The Java 8 way to get the response value (with lambda expression).
+		// result.ifPresent(name -> System.out.println("Your name: " + name));
+
+		// #####################################################
+		// Choice Dialog
+		List<String> choices = new ArrayList<>();
+		choices.add("a");
+		choices.add("b");
+		choices.add("c");
+
+		ChoiceDialog<String> dialog2 = new ChoiceDialog<>("b", choices);
+		dialog2.setTitle("Choice Dialog");
+		dialog2.setHeaderText("Look, a Choice Dialog");
+		dialog2.setContentText("Choose your letter:");
+
+		// Traditional way to get the response value.
+		Optional<String> result = dialog2.showAndWait();
+		if (result.isPresent()) {
+			System.out.println("Your choice: " + result.get());
+		}
+
+		// The Java 8 way to get the response value (with lambda expression).
+		result.ifPresent(letter -> System.out.println("Your choice: " + letter));
+
+		// #####################################################
+		// #####################################################
+
+	}
+
+}

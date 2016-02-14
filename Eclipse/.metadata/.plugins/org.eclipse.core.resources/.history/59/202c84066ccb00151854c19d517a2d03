@@ -1,8 +1,0 @@
-package com.programmingknowledge.calculator;
-
-public class Model {
-
-	public float calculate(long number1, long number2, String operator) {
-
-	}
-}

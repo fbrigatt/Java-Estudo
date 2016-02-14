@@ -1,0 +1,9 @@
+package com.codemakey.address.util;
+/**
+ * Funções auxiliares para lidar com datas.
+ * 
+ * @author Marco Jakob
+ */
+public class DateUtil {
+
+}

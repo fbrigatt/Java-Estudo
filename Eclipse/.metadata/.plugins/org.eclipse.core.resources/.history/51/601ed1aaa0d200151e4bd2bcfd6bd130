@@ -1,0 +1,13 @@
+package com.oracle.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionsDemo4_ObservableList {
+
+	public static void main(String[] args) {
+
+		// Use Java Collections to create the List
+		List<String> list = new ArrayList<>();
+	}
+}

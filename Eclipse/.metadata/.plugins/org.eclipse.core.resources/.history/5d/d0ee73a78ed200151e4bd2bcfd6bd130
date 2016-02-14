@@ -1,0 +1,25 @@
+package com.codemakey.address.model;
+
+import java.time.LocalDate;
+
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.ObjectProperty;
+import javafx.beans.property.StringProperty;
+
+public class Person {
+
+	private StringProperty firstName;
+	private StringProperty lastName;
+	private StringProperty street;
+	private IntegerProperty postalCode;
+	private StringProperty city;
+	private ObjectProperty<LocalDate> birthday;
+
+	/**
+	 * Construtor padrão
+	 */
+
+	public Person() {
+
+	}
+}

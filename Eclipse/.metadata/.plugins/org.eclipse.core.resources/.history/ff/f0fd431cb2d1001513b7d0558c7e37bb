@@ -1,0 +1,19 @@
+package com.tcc.model;
+
+public class Alimento {
+
+	String nome;
+	String marca;
+	String tipo;
+	String peso;
+	public Alimento(String nome, String marca, String tipo, String peso) {
+		super();
+		this.nome = nome;
+		this.marca = marca;
+		this.tipo = tipo;
+		this.peso = peso;
+	}
+	
+	
+
+}

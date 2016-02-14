@@ -1,0 +1,15 @@
+package model;
+
+public class Alimento {
+
+	String nome;
+	double peso;
+	Tipo tipo;
+
+	public Alimento(String nome, double peso, Tipo tipo) {
+		this.nome = nome;
+		this.peso = peso;
+		this.tipo = tipo;
+	}
+
+}

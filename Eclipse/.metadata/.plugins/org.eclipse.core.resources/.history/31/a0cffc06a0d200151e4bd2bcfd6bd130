@@ -1,0 +1,8 @@
+package com.oracle.collections;
+
+public class CollectionsDemo4_ObservableList {
+
+	public static void main(String[] args) {
+	
+}
+}

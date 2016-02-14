@@ -1,0 +1,6 @@
+package com.tcc.model;
+
+public class Produto extends Alimento {
+String nomeComercial;
+String marca;
+}

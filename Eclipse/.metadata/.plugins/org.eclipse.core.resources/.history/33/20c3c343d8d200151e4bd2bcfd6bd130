@@ -1,0 +1,7 @@
+package com.fxml.tableview;
+
+import javafx.fxml.FXML;
+
+public class TableViewController {
+
+}

@@ -1,0 +1,25 @@
+package com.oracle.properties_binding;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+
+/**
+ * {@link http://docs.oracle.com/javase/8/javafx/properties-binding-tutorial/binding.htm}
+ * 
+ * @author Raphael
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		Bill eBill = new Bill();
+
+		eBill.amountDueProperty().addListener(new ChangeListener() {
+
+			@Override
+			public void changed(ObservableValue observable, Object oldValue, Object newValue) {
+				System.out.println("Electric bill has changed");
+			}
+		});
+	}
+}

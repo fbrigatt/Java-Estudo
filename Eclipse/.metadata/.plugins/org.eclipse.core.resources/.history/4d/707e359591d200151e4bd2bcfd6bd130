@@ -1,0 +1,14 @@
+package com.oracle.properties_binding;
+
+/**
+ * {@link http://docs.oracle.com/javase/8/javafx/properties-binding-tutorial/binding.htm}
+ * 
+ * @author Raphael
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		Bill electricBill = new Bill();
+	}
+}

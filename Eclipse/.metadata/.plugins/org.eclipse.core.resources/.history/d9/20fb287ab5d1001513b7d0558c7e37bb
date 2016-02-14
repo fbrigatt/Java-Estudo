@@ -1,0 +1,21 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TesteMain {
+
+	public static void main(String[] args) {
+		Alimento a1 = new Alimento("refrigerante", Tipo.BEBIDAS);
+		Alimento a2 = new Alimento("picanha", Tipo.CARNE);
+
+		
+		addAlimento(a1);
+
+	}
+
+	private static void addAlimento(Alimento a1) {
+		List<Alimento> alimentos = new ArrayList<>();
+alimentos.		
+	}
+}

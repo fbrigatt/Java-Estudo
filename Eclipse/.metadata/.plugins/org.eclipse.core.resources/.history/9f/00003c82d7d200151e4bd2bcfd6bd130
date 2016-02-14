@@ -1,0 +1,41 @@
+package com.fxml.tableview;
+
+import javafx.beans.property.SimpleStringProperty;
+
+public class Person {
+
+	SimpleStringProperty firstName = new SimpleStringProperty("");
+	SimpleStringProperty lasttName = new SimpleStringProperty("");
+	SimpleStringProperty email = new SimpleStringProperty("");
+
+	public Person(String firstName, String lasttName, String email) {
+		setFirstName(firstName);
+		setLasttName(lasttName);
+		setEmail(email);
+	}
+
+	public String getFirstName() {
+		return firstName.get();
+	}
+
+	public void setFirstName(String firstName) {
+
+	}
+
+	public String getLasttName() {
+		return lasttName;
+	}
+
+	public void setLasttName(String lasttName) {
+		this.lasttName = lasttName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+}

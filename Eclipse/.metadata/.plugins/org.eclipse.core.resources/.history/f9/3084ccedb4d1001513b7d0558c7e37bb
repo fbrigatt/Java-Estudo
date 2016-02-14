@@ -1,0 +1,8 @@
+package model;
+
+public class Alimento {
+
+	String nome;
+	double peso;
+	Tipo tipo;
+}

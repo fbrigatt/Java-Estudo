@@ -1,0 +1,9 @@
+package com.oracle.tableview;
+
+public class City {
+
+	public City(State sp, String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

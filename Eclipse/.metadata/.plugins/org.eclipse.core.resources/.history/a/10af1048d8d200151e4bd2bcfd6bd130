@@ -1,0 +1,26 @@
+package com.fxml.tableview;
+
+import javafx.collections.ObservableList;
+import javafx.fxml.FXML;
+
+public class TableViewController {
+
+	@FXML
+	private TableView<Person> tableView;
+	@FXML
+	private TextField firstNameField;
+	@FXML
+	private TextField lastNameField;
+	@FXML
+	private TextField emailField;
+
+	@FXML
+	protected void addPerson(ActionEvent event) {
+		ObservableList<Person> data = tableView.getItems();
+		data.add(new Person(firstNameField.getText(), lastNameField.getText(), emailField.getText()));
+
+		firstNameField.setText("");
+		lastNameField.setText("");
+		emailField.setText("");
+	}
+}

@@ -1,0 +1,10 @@
+package com.tcc.model;
+
+public class Alimento {
+
+	String nome;
+	String marca;
+	String tipo;
+	String peso;
+
+}

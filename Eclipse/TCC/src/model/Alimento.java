@@ -1,0 +1,13 @@
+package model;
+
+public class Alimento {
+
+	String nome;
+	Tipo tipo;
+
+	public Alimento(String nome, Tipo tipo) {
+		this.nome = nome;
+		this.tipo = tipo;
+	}
+
+}

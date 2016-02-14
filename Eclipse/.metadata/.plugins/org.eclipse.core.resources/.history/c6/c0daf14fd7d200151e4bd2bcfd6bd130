@@ -1,0 +1,39 @@
+package com.fxml.tableview;
+
+public class Person {
+
+	String firstName = new String();
+	String lasttName = new String();
+	String email = new String();
+
+	public Person(String firstName, String lasttName, String email) {
+		setFirstName(firstName);
+		setLasttName(lasttName);
+		setEmail(email);
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLasttName() {
+		return lasttName;
+	}
+
+	public void setLasttName(String lasttName) {
+		this.lasttName = lasttName;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+}

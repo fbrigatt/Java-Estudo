@@ -1,0 +1,7 @@
+package com.fxml.tableview;
+
+public class Person {
+	String firstName = new String();
+	String lasttName = new String();
+	String email = new String();
+}
