@@ -1,0 +1,86 @@
+package com.javafxtutorials.checkbox;
+
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.geometry.Insets;
+import javafx.scene.Scene;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.Label;
+import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+public class MainApp extends Application {
+
+	// controls needed for app
+	CheckBox cb1, cb2, cb3;
+	Label lblTotal, lblList;
+
+	// 2 VBox for the labels and checkboxes
+	VBox vbCheck, vbLabel;
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+
+	@Override
+	public void start(Stage stage) throws Exception {
+		// vbox for checkboxes
+		vbCheck = new VBox();
+		vbCheck.setSpacing(10);
+		vbCheck.setPadding(new Insets(20));
+
+		// vbox for labels
+		vbLabel = new VBox();
+		vbLabel.setSpacing(10);
+		vbLabel.setPadding(new Insets(20));
+
+		// make 3 checkboxes
+		cb1 = new CheckBox("Basketball");
+		cb2 = new CheckBox("Baseball");
+		cb3 = new CheckBox("Football");
+
+		// make 2 labels
+		lblTotal = new Label("Sports chosen: 0");
+		lblList = new Label("None");
+
+		// add all things to vboxes
+		vbCheck.getChildren().addAll(cb1, cb2, cb3);
+		vbLabel.getChildren().addAll(lblTotal, lblList);
+
+		// attach click-method to all 3 checkboxes
+		cb1.setOnAction(e -> handleButtonClick(e));
+		cb2.setOnAction(e -> handleButtonClick(e));
+		cb3.setOnAction(e -> handleButtonClick(e));
+
+		// create main container and add 2 vboxes to it
+		FlowPane root = new FlowPane();
+		root.setHgap(10);
+		root.getChildren().addAll(vbCheck, vbLabel);
+
+		Scene scene = new Scene(root, 300, 250);
+		stage.setTitle("CheckBoxes - FX Version");
+		stage.setScene(scene);
+		stage.show();
+	}
+
+	private void handleButtonClick(ActionEvent e) {
+		int count = 0;
+		String choices = "";
+
+		if (cb1.isSelected()) {
+			count++;
+			choices += cb1.getText() + "\n";
+		}
+		if (cb2.isSelected()) {
+			count++;
+			choices += cb2.getText() + "\n";
+		}
+		if (cb3.isSelected()) {
+			count++;
+			choices += cb3.getText() + "\n";
+		}
+		lblTotal.setText("Sports chosen: " + count);
+		lblList.setText(choices);
+	}
+}

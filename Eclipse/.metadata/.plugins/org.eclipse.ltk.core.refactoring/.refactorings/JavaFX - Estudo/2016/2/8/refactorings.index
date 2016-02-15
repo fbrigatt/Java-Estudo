@@ -26,3 +26,44 @@
 1455477254657	Delete elements
 1455478988306	Delete element
 1455481512081	Copy folder
+1455558399016	Rename package 'de.vogella.itext.write'
+1455558466753	Rename package 'com.pdf'
+1455558617964	Rename package 'de.vogella.itext.readpdf'
+1455558704629	Rename package 'de.vogella.itext'
+1455559716926	Rename package 'com.codemakery.tableview.filter'
+1455559869398	Delete elements
+1455560607985	Rename resource 'PersonView.fxml'
+1455561314542	Rename package 'view'
+1455565313584	Delete elements
+1455565315845	Delete element
+1455565623728	Delete element
+1455565637770	Rename package 'com.bracode'
+1455565644933	Rename package 'com.codemakery'
+1455565652910	Delete element
+1455565932045	Rename package 'ch.makery.address'
+1455565993810	Delete element
+1455565999458	Rename package 'com.estudo.bracode'
+1455566043648	Rename package 'com.estudo'
+1455566262593	Move compilation unit
+1455566266192	Delete element
+1455566282472	Move package
+1455566308800	Copy packages
+1455566319546	Delete element
+1455566378558	Rename package 'com.zoutros'
+1455566388511	Delete element
+1455566432206	Rename package 'codemakery.ch.makery.address'
+1455566501231	Rename type 'FX_CheckBox'
+1455566510925	Rename type 'FXML_CheckBox'
+1455566525708	Rename resource 'Main.fxml'
+1455566531254	Rename type 'MainController'
+1455566606755	Rename resource 'Main.fxml'
+1455566620995	Rename type 'FXML_HelloMath'
+1455566625692	Rename type 'FX_HelloMath'
+1455566699965	Rename type 'FX_TwoScene'
+1455566728459	Rename resource 'Main1.fxml'
+1455566736508	Rename type 'Main1Controller'
+1455566741929	Rename resource 'Main2.fxml'
+1455566757238	Rename type 'FXML_TwoScene'
+1455566910789	Rename type 'FXMLExample'
+1455566918425	Rename resource 'FXMLExample.fxml'
+1455566924333	Rename type 'FXMLExampleController'

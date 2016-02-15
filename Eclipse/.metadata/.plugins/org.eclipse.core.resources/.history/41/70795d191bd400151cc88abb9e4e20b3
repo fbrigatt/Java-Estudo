@@ -1,0 +1,20 @@
+package tudo.view;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.layout.BorderPane;
+
+public class MainAppController {
+
+	@FXML
+	Button btn1;
+	
+	@FXML
+	BorderPane layout;
+
+	public void tela1(ActionEvent e) {
+
+	}
+
+}

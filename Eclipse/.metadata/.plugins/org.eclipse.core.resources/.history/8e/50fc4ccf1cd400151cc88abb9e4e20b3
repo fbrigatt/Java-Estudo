@@ -1,0 +1,54 @@
+package com.programmingknowledge.treeview;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.TreeItem;
+import javafx.scene.control.TreeView;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+
+public class MainController implements Initializable {
+
+	@FXML
+	TreeView<String> treeView;
+
+	Image iconHome = new Image(getClass().getResourceAsStream("img/home.png"));
+	Image iconOk = new Image(getClass().getResourceAsStream("img/ok.png"));
+	Image iconNot = new Image(getClass().getResourceAsStream("img/not.png"));
+
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+
+		// principal
+		TreeItem<String> root = new TreeItem<>("Root", new ImageView(iconHome));
+		root.setExpanded(true);
+
+		// node
+		TreeItem<String> nodeA = new TreeItem<>("Node A", new ImageView(iconOk));
+		TreeItem<String> nodeB = new TreeItem<>("Node B", new ImageView(iconOk));
+		TreeItem<String> nodeC = new TreeItem<>("Node C", new ImageView(iconOk));
+		nodeA.setExpanded(true);
+
+		root.getChildren().addAll(nodeA, nodeB, nodeC);
+
+		// subnode
+		TreeItem<String> nodeA1 = new TreeItem<>("Node A1", new ImageView(iconNot));
+		TreeItem<String> nodeB1 = new TreeItem<>("Node B1", new ImageView(iconNot));
+		TreeItem<String> nodeC1 = new TreeItem<>("Node C1", new ImageView(iconNot));
+		nodeA.getChildren().addAll(nodeA1, nodeB1, nodeC1);
+
+		treeView.setRoot(root);
+	}
+
+	public void mouseClicado(MouseEvent mouseEvent) {
+		if (mouseEvent.getClickCount() == 2) {
+			TreeItem<String> item = treeView.getSelectionModel().getSelectedItem();
+			System.out.println(item.getValue());
+		}
+	}
+
+}

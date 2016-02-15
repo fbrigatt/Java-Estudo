@@ -1,0 +1,43 @@
+package com.estudo.programmingknowledge.radiobutton;
+
+import java.net.URL;
+import java.util.ResourceBundle;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.ToggleGroup;
+
+public class MainController implements Initializable {
+
+	@FXML
+	private RadioButton rb1;
+
+	@FXML
+	private ToggleGroup myGroup;
+
+	@FXML
+	private RadioButton rb2;
+
+	@FXML
+	private Label lbl;
+
+	public void radioSelect(ActionEvent e) {
+		String message = "";
+		if (rb1.isSelected()) {
+			message += rb1.getText() + " ";
+		}
+		if (rb2.isSelected()) {
+			message += rb2.getText() + " ";
+		}
+		lbl.setText(message);
+	}
+
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		rb2.setSelected(true);
+		lbl.setText(rb2.getText());
+	}
+}

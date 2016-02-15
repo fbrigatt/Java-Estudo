@@ -1,0 +1,17 @@
+package com.codemakery.tableviewfilter;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+
+public class PersonTableController {
+
+	 @FXML
+	    private TextField filterField;
+	    @FXML
+	    private TableView<Person> personTable;
+	    @FXML
+	    private TableColumn<Person, String> firstNameColumn;
+	    @FXML
+	    private TableColumn<Person, String> lastNameColumn;
+
+}
